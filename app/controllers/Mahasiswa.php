@@ -42,4 +42,8 @@ class Mahasiswa extends Controller{
             exit;
         }
     }
+
+    public function getubah(){
+        echo $_POST['id'];
+    }
 }
